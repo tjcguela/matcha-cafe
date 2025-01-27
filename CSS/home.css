@@ -1,0 +1,155 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+/*****************/
+/*Image container*/
+/*****************/
+.home-subcontainer-image {
+    background-image: url('../images/pink-cafe-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+
+.home-subcontainer-image2 {
+    background-image: url('../images/cafe-staff.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+
+.home-subcontainer-image3 {
+    background-image: url('../images/make-matcha.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+
+/*****************/
+/*Text Container*/
+/*****************/
+.home-subcontainer-text {
+    background-color: #588061;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDE9EA;
+}
+
+.home-subcontainer-text2 {
+    background-color: #F9E0DB;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #588061;
+}
+
+/**********************/
+/*Inner Text Container*/
+/**********************/
+.home-innercontainer-text{
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-innercontainer-text h2{
+    /***************/
+    /*Applying Font*/
+    /***************/
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+
+    /************/
+    /*Formatting*/
+    /************/
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.home-innercontainer-text h3{
+    /***************/
+    /*Applying Font*/
+    /***************/
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+
+    /************/
+    /*Formatting*/
+    /************/
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.home-innercontainer-text p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+
+    border: 2px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #588061;
+
+    width: 150px;
+    background-color: #FDE9EA;
+}
+
+.button:hover{
+    background-color: #588061;
+    border: 1px solid #FDE9EA;
+    color: #FDE9EA;
+}
+
+.button2 {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: 2px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #F9E0DB;
+    width: 150px;
+    background-color: #588061;
+}
+
+.button2:hover {
+    background-color: #F9E0DB;
+    border: 1px solid #588061;
+    color: #588061;
+}
+

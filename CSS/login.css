@@ -1,0 +1,129 @@
+.signup-main-container {
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDE9EA;
+    border-radius: 50px;
+    border: 2px solid #588061;
+}
+
+.signup-subcontainer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #588061;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    align-self: center;
+    margin-bottom: 18%;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.signup-names-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+}
+
+.signup-names-subcontainer{
+    display: flex;
+}
+
+.signup-names-subcontainer p:last-child{
+    margin-left: 80px;
+}
+
+.signup-textbox {
+    width: 100%;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #588061;
+    background-color: #FDE9EA;
+    height: 10px;
+    color: #588061;
+    outline: none;
+    font-size: 12px;
+}
+
+.signup-names-subcontainer input{
+    width: 55%;
+}
+
+.signup-names-subcontainer input:last-child{
+    margin-left: 15px;
+}
+
+.signup-subcontainer input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup-subcontainer input:last-child{
+    margin-bottom: 0;
+}
+
+.signup-subcontainer a{
+    text-decoration: underline;
+    color: #588061;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    border: 2px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #FDE9EA;
+    width: 25%;
+    background-color: #588061;
+    margin-top: 15px;
+    align-self: center;
+}
+
+.button:hover{
+    background-color: #FDE9EA;
+    border: 1px solid #588061;
+    color: #588061;
+}
+
+
+.signup-subcontainer2 {
+    width: 65%;
+    height: 100%;
+    background-color: #588061;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px 0 0 48px;
+}
+
+.signup-subcontainer p:last-child{
+    margin-left: auto;
+    margin-right: auto;
+}

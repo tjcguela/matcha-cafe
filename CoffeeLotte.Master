@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CoffeeLotte.Master.cs" Inherits="ActualMP.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!-- usual head tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file -->
+    <!-- change file path if needed -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header"> <!-- main container -->
+            <div class="navbar"><!-- sub container -->
+                <asp:HyperLink ID="logo" runat="server" ImageHeight="150" NavigateUrl="~/Home.aspx">Matcha, Matcha, Much!</asp:HyperLink>
+                <asp:Label ID="lblCurrentUser" runat="server" Text="" Visible="false"></asp:Label>
+                <asp:HyperLink ID="HPMenu" runat="server" NavigateUrl="~/menu.aspx">Menu</asp:HyperLink>
+                <asp:HyperLink ID="HPContactUs" runat="server" NavigateUrl="~/ContactUs.aspx">Contact Us</asp:HyperLink>
+                <asp:HyperLink ID="HPLogin" runat="server" NavigateUrl="~/Login.aspx">Log In</asp:HyperLink>
+                <asp:Button ID="btnLogOut" runat="server" Text="Log Out" Visible="false" OnClick="btnLogOut_Click" />
+            </div>
+        </div>
+        <br />
+        <br />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        <br />
+        <div class="footer">
+            
+        </div>
+    </form>
+</body>
+</html>

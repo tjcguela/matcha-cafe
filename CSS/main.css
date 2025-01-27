@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FDE9EA;
+}
+
+.header{
+    background-color: #588061;
+    box-shadow:rgba(0,0,0,0.1) 3px 3px 5px;
+}
+
+.navbar {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar a {
+    height: 60%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #FDE9EA;
+    border-radius: 50px;
+}
+
+.navbar span{
+    height: 60%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #FDE9EA;
+    border-radius: 50px;
+}
+
+.navbar input{
+    font-size: smaller;
+    height: 60%;
+    padding: 0 15px;
+    color: #588061;
+    background-color: #FDE9EA;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #FDE9EA;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar input:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: #FDE9EA;
+    border: 1px solid #FDE9EA;
+    cursor: pointer;
+}
+
+.navbar a:first-child {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.navbar a:last-child {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: #052f07;
+}
+
+a#HPLogin, #HPLogOut {
+    background-color: #FDE9EA;
+    color: #588061;
+}
+
+a#HPLogin:hover, #HPLogOut:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: #FDE9EA;
+    border: 1px solid #FDE9EA;
+}
+
+#lblCurrentUser{
+    text-decoration: underline;
+}
+
